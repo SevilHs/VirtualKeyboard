@@ -1,0 +1,62 @@
+body {
+  background: url(../image/bg.jpg) no-repeat center;
+  padding: 10px;
+  background-size: cover;
+  box-sizing: border-box;
+}
+.title {
+  font-size: 64px;
+  font-family: cursive;
+  text-align: center;
+  margin: 20px;
+}
+.text-box {
+  background-color: #8c8fab7d;
+  height: 170px;
+  max-width: 1000px;
+  padding: 15px;
+  border-radius: 20px;
+  margin: 30px auto;
+  font-size: 18px;
+  overflow: auto;
+  overflow-wrap: break-word;
+}
+.text-box::-webkit-scrollbar {
+  border-radius: 70px;
+  width: 12px;
+}
+.text-box::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 50px;
+}
+.light {
+  background-color: rgb(209, 158, 100);
+  background-color: rgb(73, 73, 104);
+}
+.keyboard-content {
+  max-width: 860px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+button {
+  font-size: 24px;
+  padding: 10px 25px;
+  border: none;
+  outline: none;
+  border-radius: 100px;
+  background-color: rgba(0, 0, 0, 0.637);
+  background-color: #8c8fab7d;
+  color: #ffffff;
+  color: #000;
+}
+#space {
+  width: 200px;
+  padding: 23px;
+}
+::selection {
+  background-color: rgba(89, 69, 149, 0.252);
+}
